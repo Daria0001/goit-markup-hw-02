@@ -1,0 +1,116 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1,2;
+  
+}
+.logo span {
+  color: #000000;
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1,2;
+}
+
+.link-text {
+  color: #212121;
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1,2;
+}
+
+.link-text:hover {
+  color: #2196f3;
+  
+}
+
+.link-portfolio {
+  color: #2196f3;
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1,2;
+}
+
+.link-portfolio:hover {
+  color: #212121;
+}
+
+.link-contacts {
+  color: #757575;
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1,2;
+}
+.link-contacts:hover {
+  color: #2196f3;
+}
+
+.button {
+  cursor: pointer;
+  color: #212121;
+  font-family: Roboto;
+  font-style: Medium;
+  background: #F5F4FA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1,6;
+}
+
+.button:hover, button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+}
+.title {
+  color: #000000;
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+.text {
+  color: #757575;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+}
+footer{
+    background: #2F303A;
+}
+.contact-section-adress{
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1,7;
+}
+
+.contact{
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1,7;
+}
