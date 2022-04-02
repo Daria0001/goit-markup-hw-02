@@ -1,7 +1,16 @@
 body {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif;  */
   font-family: "Roboto", sans-serif;
+  font-size: normal;
   background: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .logo {
@@ -11,7 +20,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
-  
 }
 .logo span {
   color: #000000;
@@ -24,34 +32,23 @@ body {
 
 .link-text {
   color: #212121;
-  font-family: Roboto;
   font-style: Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
 }
 
-.link-text:hover {
+.link-text.accent {
   color: #2196f3;
-  
 }
 
-.link-portfolio {
+.link-text:hover,
+.link-text:focus {
   color: #2196f3;
-  font-family: Roboto;
-  font-style: Medium;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-.link-portfolio:hover {
-  color: #212121;
 }
 
 .link-contacts {
   color: #757575;
-  font-family: Roboto;
   font-style: Medium;
   font-size: 14px;
   font-weight: 500;
@@ -61,26 +58,36 @@ body {
   color: #2196f3;
 }
 
+.section {
+  background: #2f303a;
+}
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
 .button {
   cursor: pointer;
   color: #212121;
-  font-family: Roboto;
   font-style: Medium;
-  background: #F5F4FA;
+  background: #f5f4fa;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1,6;
+  line-height: 1, 6;
 }
 
-.button:hover, button:focus {
+.button:hover,
+button:focus {
   background: #2196f3;
   color: #ffffff;
 }
 
-}
 .title {
   color: #000000;
-  font-family: Roboto;
   font-style: Bold;
   font-size: 18px;
   font-weight: 700;
@@ -88,27 +95,73 @@ body {
 }
 .text {
   color: #757575;
-  font-family: Roboto;
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
   line-height: 2;
 }
-footer{
-    background: #2F303A;
+
+.title-peculiarities {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.contact-section-adress{
-  color: #FFFFFF;
-  font-family: Roboto;
+
+.paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.title-features {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.title-comand {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.title-person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+footer {
+  background: #2f303a;
+}
+.contact-section-adress {
+  color: #ffffff;
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1,7;
+  line-height: 1, 7;
 }
 
-.contact{
+.contact {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
