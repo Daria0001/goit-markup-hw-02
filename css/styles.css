@@ -16,26 +16,27 @@ a {
 .logo {
   color: #2196f3;
   font-family: Raleway;
-  font-style: Bold;
+  font-style: normal;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.19;
 }
 .logo span {
   color: #000000;
   font-family: Raleway;
-  font-style: Bold;
+  font-style: normal;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.19;
 }
 
 .link-text {
+  font-family: "Roboto";
   color: #212121;
-  font-style: Medium;
+  font-style: normal;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.14;
 }
 
 .link-text.accent {
@@ -63,6 +64,8 @@ a {
 }
 
 .hero {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -70,14 +73,26 @@ a {
   color: #ffffff;
 }
 
+.button-hero {
+  font-family: "Roboto";
+  color: #ffffff;
+  background: #2196f3;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .button {
   cursor: pointer;
   color: #212121;
-  font-style: Medium;
+  font-style: normal;
   background: #f5f4fa;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1, 6;
+  line-height: 1.62;
 }
 
 .button:hover,
@@ -152,12 +167,31 @@ button:focus {
 footer {
   background: #2f303a;
 }
+
+.logo-footer {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+}
+.logo-footer span {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
 .contact-section-adress {
   color: #ffffff;
-  font-style: Regular;
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1, 7;
+  line-height: 1.7;
 }
 
 .contact {
