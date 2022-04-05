@@ -19,7 +19,7 @@ a {
   font-style: normal;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 0.83;
 }
 .logo span {
   color: #000000;
@@ -27,16 +27,15 @@ a {
   font-style: normal;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 0.83;
 }
 
 .link-text {
-  font-family: "Roboto";
   color: #212121;
-  font-style: normal;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .link-text.accent {
@@ -50,10 +49,9 @@ a {
 
 .link-contacts {
   color: #757575;
-  font-style: Medium;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.14;
 }
 .link-contacts:hover {
   color: #2196f3;
@@ -64,8 +62,7 @@ a {
 }
 
 .hero {
-  font-family: "Roboto";
-  font-style: normal;
+  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -86,6 +83,7 @@ a {
 }
 
 .button {
+  font-family: "Roboto";
   cursor: pointer;
   color: #212121;
   font-style: normal;
@@ -103,17 +101,16 @@ button:focus {
 
 .title {
   color: #000000;
-  font-style: Bold;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
 }
+
 .text {
   color: #757575;
-  font-style: Regular;
   font-size: 16px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.87;
 }
 
 .title-peculiarities {
@@ -174,7 +171,7 @@ footer {
   font-style: normal;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 0.83;
 }
 .logo-footer span {
   color: #ffffff;
@@ -182,7 +179,7 @@ footer {
   font-style: normal;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 0.83;
 }
 
 .contact-section-adress {
@@ -196,8 +193,7 @@ footer {
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 1.7;
+  font-weight: 500;
+  line-height: 1.14;
 }
