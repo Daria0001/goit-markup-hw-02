@@ -184,13 +184,15 @@ footer {
 
 .contact-section-adress {
   color: #ffffff;
-  ont-size: 14px;
+  font-style: normal;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
 }
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
